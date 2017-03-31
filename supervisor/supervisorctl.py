@@ -1199,8 +1199,8 @@ class DefaultControllerPlugin(ControllerPluginBase):
             log(gname, "added process group")
 
     def help_update(self):
-        self.ctl.output("update\t\t\tReload config and add and remove as necessary, and will restart affected programs")
-        self.ctl.output("update all\t\tReload config and add and remove as necessary, and will restart affected programs")
+        self.ctl.output("update\t\t\tReload config and add and remove as necessary, and restart affected program(s)")
+        self.ctl.output("update all\t\tReload config and add and remove as necessary, and restart affected program(s)")
         self.ctl.output("update <gname> [...]\tUpdate specific groups")
 
     def _clearresult(self, result):

@@ -247,7 +247,7 @@ remove <name> [...]
 
 update
 
-   Reload config and then add and remove as necessary (restarts programs)
+   Reload config, then add and remove as necessary. restarts program(s).
 
 clear <name>
 
@@ -280,7 +280,7 @@ pid all
 
 reread
 
-   Reload the daemon's configuration files, without add/remove (no restarts)
+   Reload the daemon's configuration files, without add/remove. no restart(s)
 
 restart <name>
 
