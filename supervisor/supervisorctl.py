@@ -114,7 +114,7 @@ class fgthread(threading.Thread):
         self.error_handler.close()
         self.killed = True
 
-class Controller(cmd.Cmd):
+class Controller(cmd.Cmd, object):
 
     def __init__(self, options, completekey='tab', stdin=None,
                  stdout=None):
